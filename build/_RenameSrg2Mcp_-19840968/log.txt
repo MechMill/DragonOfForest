@@ -1,0 +1,15 @@
+Java Launcher: G:\PROGRAMY\MCreator 2022.2\jdk\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Kamcio\.mcreator\gradle\caches\modules-2\files-2.1\software.bernie.geckolib\geckolib-forge-1.18\3.0.52\c1c3a239cbc3fc24f9701156ff05c9ecc80e062e\geckolib-forge-1.18-3.0.52.jar, --output, C:\Users\Kamcio\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.18\3.0.52_mapped_official_1.18.2\geckolib-forge-1.18-3.0.52_mapped_official_1.18.2.jar, --mcp, C:\Users\Kamcio\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Kamcio\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: G:\PROGRAMY\McreatorGitHub\DragonOfForest\build\_RenameSrg2Mcp_-19840968
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Kamcio\.mcreator\gradle\caches\modules-2\files-2.1\software.bernie.geckolib\geckolib-forge-1.18\3.0.52\c1c3a239cbc3fc24f9701156ff05c9ecc80e062e\geckolib-forge-1.18-3.0.52.jar
+Output: C:\Users\Kamcio\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.18\3.0.52_mapped_official_1.18.2\geckolib-forge-1.18-3.0.52_mapped_official_1.18.2.jar
+MCP:    C:\Users\Kamcio\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

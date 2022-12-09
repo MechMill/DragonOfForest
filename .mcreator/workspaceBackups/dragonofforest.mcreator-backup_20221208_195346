@@ -1,0 +1,132 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedForest",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_forest",
+      "path": "~/biomredforest"
+    },
+    {
+      "name": "Zakladkadragonofforest",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zakladkadragonofforest",
+      "path": "~/biomredforest"
+    },
+    {
+      "name": "Dragonofforest",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonofforest",
+      "path": "~/biomredforest"
+    },
+    {
+      "name": "Gotothe",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gotothe",
+      "path": "~/biomredforest"
+    },
+    {
+      "name": "Tornado",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tornado"
+    },
+    {
+      "name": "BlueForest",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_forest",
+      "path": "~/biomeblueforest"
+    },
+    {
+      "name": "Slaim",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slaim",
+      "path": "~/BOSS"
+    },
+    {
+      "name": "SlaimModel",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slaim_model",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/BOSS"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.dragonofforest.slaim": "Slaim",
+      "item.dragonofforest.zakladkadragonofforest": "Zakladkadragonofforest",
+      "item.dragonofforest.tornado_spawn_egg": "Tornado Spawn Egg",
+      "item.dragonofforest.slaim_spawn_egg": "Slaim Spawn Egg",
+      "biome.dragonofforest.red_forest": "Red Forest",
+      "advancements.gotothe.descr": "Go to the dragon of forest",
+      "advancements.gotothe.title": "Dragon Of Forest",
+      "biome.dragonofforest.blue_forest": "Blue Forest",
+      "entity.dragonofforest.tornado": "Tornado",
+      "itemGroup.tabdragonofforest": "Dragon of forest"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "biomredforest",
+        "children": []
+      },
+      {
+        "name": "biomeblueforest",
+        "children": []
+      },
+      {
+        "name": "BOSS",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dragonofforest",
+    "modName": "DragonOfForest",
+    "version": "1.0.0",
+    "author": "Kamcio, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dragonofforest",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

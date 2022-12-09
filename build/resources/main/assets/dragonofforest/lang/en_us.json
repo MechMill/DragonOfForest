@@ -1,0 +1,12 @@
+{
+  "entity.dragonofforest.slaim": "Slaim",
+  "item.dragonofforest.zakladkadragonofforest": "Zakladkadragonofforest",
+  "item.dragonofforest.tornado_spawn_egg": "Tornado Spawn Egg",
+  "item.dragonofforest.slaim_spawn_egg": "Slaim Spawn Egg",
+  "biome.dragonofforest.red_forest": "Red Forest",
+  "advancements.gotothe.descr": "Go to the dragon of forest",
+  "advancements.gotothe.title": "Dragon Of Forest",
+  "biome.dragonofforest.blue_forest": "Blue Forest",
+  "entity.dragonofforest.tornado": "Tornado",
+  "itemGroup.tabdragonofforest": "Dragon of forest"
+}

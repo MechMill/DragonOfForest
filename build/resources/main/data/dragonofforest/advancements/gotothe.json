@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "dragonofforest:zakladkadragonofforest"
+    },
+    "title": {
+      "translate": "advancements.gotothe.title"
+    },
+    "description": {
+      "translate": "advancements.gotothe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gotothe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "dragonofforest:red_forest"
+      }
+    }
+  }
+}
