@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.dragonofforest.entity.TornadoEntity;
 import net.mcreator.dragonofforest.entity.SlaimEntity;
+import net.mcreator.dragonofforest.entity.GolembigEntity;
 import net.mcreator.dragonofforest.DragonofforestMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -33,6 +34,11 @@ public class DragonofforestModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(TornadoEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GolembigEntity>> GOLEMBIG = register("golembig",
+			EntityType.Builder.<GolembigEntity>of(GolembigEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(GolembigEntity::new)
+
+					.sized(1f, 2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -43,6 +49,7 @@ public class DragonofforestModEntities {
 		event.enqueueWork(() -> {
 			SlaimEntity.init();
 			TornadoEntity.init();
+			GolembigEntity.init();
 		});
 	}
 
@@ -50,5 +57,6 @@ public class DragonofforestModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SLAIM.get(), SlaimEntity.createAttributes().build());
 		event.put(TORNADO.get(), TornadoEntity.createAttributes().build());
+		event.put(GOLEMBIG.get(), GolembigEntity.createAttributes().build());
 	}
 }

@@ -29,7 +29,7 @@ simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:90
+maxFps:70
 difficulty:2
 graphicsMode:1
 ao:0

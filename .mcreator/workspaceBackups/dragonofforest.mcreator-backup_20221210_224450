@@ -65,6 +65,36 @@
         "dependencies": []
       },
       "path": "~/BOSS"
+    },
+    {
+      "name": "Tornado",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tornado",
+      "path": "~/POTWORY"
+    },
+    {
+      "name": "TornadoModel",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tornado_model",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/POTWORY"
+    },
+    {
+      "name": "GolemBig",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_big",
+      "path": "~/BOSS"
     }
   ],
   "variable_elements": [],
@@ -72,13 +102,17 @@
   "language_map": {
     "en_us": {
       "entity.dragonofforest.slaim": "Slaim",
+      "item.dragonofforest.tornado_spawn_egg": "Tornado Spawn Egg",
+      "advancements.gotothe.descr": "Go to the dragon of forest",
+      "biome.dragonofforest.blue_forest": "Blue Forest",
+      "item.dragonofforest.golem_big_spawn_egg": "Golem Big Spawn Egg",
+      "entity.dragonofforest.tornado": "Tornado",
+      "entity.dragonofforest.golem_big": "Golem Big",
+      "itemGroup.tabdragonofforest": "Dragon of forest",
       "item.dragonofforest.zakladkadragonofforest": "Zakladkadragonofforest",
       "item.dragonofforest.slaim_spawn_egg": "Slaim Spawn Egg",
       "biome.dragonofforest.red_forest": "Red Forest",
-      "advancements.gotothe.descr": "Go to the dragon of forest",
-      "advancements.gotothe.title": "Dragon Of Forest",
-      "biome.dragonofforest.blue_forest": "Blue Forest",
-      "itemGroup.tabdragonofforest": "Dragon of forest"
+      "advancements.gotothe.title": "Dragon Of Forest"
     }
   },
   "foldersRoot": {

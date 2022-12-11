@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.dragonofforest.client.renderer.TornadoRenderer;
 import net.mcreator.dragonofforest.client.renderer.SlaimRenderer;
+import net.mcreator.dragonofforest.client.renderer.GolembigRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DragonofforestModEntityRenderers {
@@ -18,5 +19,6 @@ public class DragonofforestModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(DragonofforestModEntities.SLAIM.get(), SlaimRenderer::new);
 		event.registerEntityRenderer(DragonofforestModEntities.TORNADO.get(), TornadoRenderer::new);
+		event.registerEntityRenderer(DragonofforestModEntities.GOLEMBIG.get(), GolembigRenderer::new);
 	}
 }

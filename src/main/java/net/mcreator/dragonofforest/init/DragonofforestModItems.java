@@ -23,4 +23,7 @@ public class DragonofforestModItems {
 	public static final RegistryObject<Item> TORNADO = REGISTRY.register("tornado_spawn_egg",
 			() -> new ForgeSpawnEggItem(DragonofforestModEntities.TORNADO, -2302360, -724833,
 					new Item.Properties().tab(DragonofforestModTabs.TAB_DRAGONOFFOREST)));
+	public static final RegistryObject<Item> GOLEMBIG = REGISTRY.register("golembig_spawn_egg",
+			() -> new ForgeSpawnEggItem(DragonofforestModEntities.GOLEMBIG, -10066330, -26368,
+					new Item.Properties().tab(DragonofforestModTabs.TAB_DRAGONOFFOREST)));
 }
